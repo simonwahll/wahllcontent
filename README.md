@@ -1,6 +1,6 @@
-# Wahll Ref Content
+# Wahll Content
 
-This is the repository to the open source tutorial and reference site. It is a submodule in [this](https://github.com/simonwahll/wahllref) repository. 
+This is the repository to the open source coding website. It is a submodule in [this](https://github.com/simonwahll/wahllref) repository. 
 
 ## Contributing
 
