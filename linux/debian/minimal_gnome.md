@@ -9,7 +9,7 @@ images: []
 menu: 
   linux:
     parent: "Debian"
-weight: 1
+weight: 2
 toc: true
 ---
 
