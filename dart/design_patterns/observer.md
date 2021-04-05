@@ -8,7 +8,7 @@ draft: false
 images: []
 menu: 
   dart:
-    parent: "Reference"
+    parent: "Design Patterns"
 weight: 3
 toc: true
 ---
