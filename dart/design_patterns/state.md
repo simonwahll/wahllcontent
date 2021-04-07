@@ -29,19 +29,20 @@ This is quite straight forward.
 
 ```dart
 abstract class State {
-  void describe();
+  void describe(StateContext stateContext);
 }
 ```
 
 ## A Number of Different States
 
-Each state should implement the State() interface. We will create two states for now.
+Each state should implement the `State()` interface. We will create two states for now.
 
 ```dart
 class LiquidState implements State {
   @override
-  void describe() {
+  void describe(StateContext stateContext) {
     print('This is liquid.');
+    stateContext.setState(SolidState()); 
   }
 }
 ```
@@ -49,8 +50,9 @@ class LiquidState implements State {
 ```dart
 class SolidState implements State {
   @override
-  void describe() {
+  void describe(StateContext stateContext) {
     print('This is solid.');
+    stateContext.setState(LiquidState());
   }
 }
 ```
@@ -81,9 +83,7 @@ This can be tested with a simple `main()` function:
 void main() {
   var state = StateContext();
   state.describe();
-  state.setState(LiquidState());
   state.describe();
-  state.setState(SolidState());
   state.describe();
 }
 ```
@@ -97,4 +97,22 @@ $ dart run main.dart
 > This is solid.
 ```
 
-Congratulations, you just used the state design pattern. Optionally you could use some kind of function in the `StateContext()` class that cycles through all the possible states.
+Congratulations, you just used the state design pattern.
+
+Note that you can have multiple current states in the state context but keep in mind that this will increase the complexity significantly and should generally be avoided.
+
+## State vs Strategy
+
+Below we will outline the main differences:
+
+### State
+- The states can be aware of eachother.
+- The states can change the current state in the state context.
+- An actor outside of the state context or the states should not be able to directly change the current state.
+- A change in state should be a side effect of some action in the state context. This can be in either the state context or in one of the states.
+
+### Strategy
+- The strategies should not be aware of eachother.
+- A strategy should not be able to change any current strategy.
+- An actor outside of the strategy context should be able to change the current strategies.
+- A change in the current strategies should not be a side effect of some action in the strategy context. 
