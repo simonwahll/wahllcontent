@@ -113,6 +113,6 @@ Below we will outline the main differences:
 
 ### Strategy
 - The strategies should not be aware of eachother.
-- A strategy should not be able to change any current strategy.
+- A strategy should not be able to change any current strategy in the strategy context.
 - An actor outside of the strategy context should be able to change the current strategies.
-- A change in the current strategies should not be a side effect of some action in the strategy context. 
+- A change in the strategy contexts strategies should not be a side effect of some action in the strategy context. 
