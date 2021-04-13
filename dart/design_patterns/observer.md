@@ -9,7 +9,7 @@ images: []
 menu: 
   dart:
     parent: "Design Patterns"
-weight: 4
+weight: 7
 toc: true
 ---
 
