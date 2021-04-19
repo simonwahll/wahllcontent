@@ -1,6 +1,6 @@
 # Wahll Content
 
-This is the repository to the open source coding website. It is a submodule in [this](https://github.com/simonwahll/wahllref) repository. 
+This is the content repository to wahll.xyz. It is a submodule in [this](https://github.com/simonwahll/wahllref) repository. All content for this website should be put in this repository.
 
 ## Contributing
 
