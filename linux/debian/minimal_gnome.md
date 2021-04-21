@@ -17,7 +17,7 @@ toc: true
 
 When installing the GNOME version of Debian you will get piles of packages installed that you will never use. I would recommend installing the minimal version of Debian without any desktop environment and then install GNOME later with apt.
 
-## How To
+## How-To
 
 1. Download the netinstall iso from the Debian [website](https://www.debian.org/) and install it without any desktop environment. 
 
@@ -49,4 +49,4 @@ apt install gnome-core
 
 ## Networking Icon Is a Question mark
 
-In the top right corner you wight have a weird network icon that says `Wired Unmanaged`. You can fix this by edition `/etc/NetworkManager/NetworkManager.conf` and change `managed=false` to `managed=true`.
+In the top right corner, you might have a weird network icon that says `Wired Unmanaged`. You can fix this by edition `/etc/NetworkManager/NetworkManager.conf` and change `managed=false` to `managed=true`.

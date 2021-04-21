@@ -13,7 +13,7 @@ weight: 8
 toc: true
 ---
 
-A variable is kind of like a box that stores some value that can be accessed later. Every variable has a name which is used to identify it. Dart is a statically typed language, this means that the type of a variable cannot be changed. If you decide that a variable should be of type `int` you can never assign it a value of the type String. 
+A variable is kind of like a box that stores some value that can be accessed later. Every variable has a name that is used to identify it. Dart is a statically typed language, this means that the type of a variable cannot be changed. If you decide that a variable should be of type `int` you can never assign it a value of the type String. 
 
 There are a few rules you must follow when deciding on a name for a variable. These are:
 
@@ -24,19 +24,19 @@ There are a few rules you must follow when deciding on a name for a variable. Th
 
 ## Syntax
 
-Variable declaration has the following syntax:
+A variable declaration has the following syntax:
 
 ```dart
 type name;
 ```
 
-Variable assignment has the following syntax:
+A variable assignment has the following syntax:
 
 ```dart
 name = value;
 ```
 
-Variable declaration and assignment has the following syntax:
+Variable declaration and assignment have the following syntax:
 
 ```dart
 type name = value;
@@ -89,7 +89,7 @@ $ dart run main.dart
 
 ## The `var` Keyword
 
-The `var` keyword is recommended to use when a variable is declared in a functions `local scope` and the type of the variable is apparent. The variable is still statically typed and the type of the first value assigned to it will be the type of the variable for the rest of the program.
+The `var` keyword is recommended to use when a variable is declared in a function's `local scope` and the type of the variable is apparent. The variable is still statically typed and the type of the first value assigned to it will be the type of the variable for the rest of the program.
 
 Let's demonstrate this:
 

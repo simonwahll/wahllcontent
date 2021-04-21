@@ -15,11 +15,11 @@ toc: true
 
 The factory design pattern can create an object without exposing the creation logic to the client. It also allows the client to use one interface for all objects that the factory can create. 
 
-This design pattern can be useful when you need to be able to create different types of object but still need to have one interface that all objects understand.
+This design pattern can be useful when you need to be able to create different types of objects but still need to have one interface that all objects understand.
 
 ## The interface
 
-Start by creating an interface that each object implements. In Dart we also have a special kind of constructor, the factory constructor. A standard constructor would return a new instance of the same type as the object the constructor resides in but with a factory constructor we can return any instance, a new or an existing one, as long as its the same type as the class or a class that implements its methods.
+Start by creating an interface that each object implements. In Dart, we also have a special kind of constructor, the factory constructor. A standard constructor would return a new instance of the same type as the object the constructor resides in but with a factory constructor, we can return any instance, a new or an existing one, as long as its the same type as the class or a class that implements its methods.
 
 Below you can find an abstract class that can be used as the interface:
 
@@ -44,7 +44,7 @@ abstract class Shape {
 
 ## Classes Implementing the Interface
 
-The next step is to create classes that implements the `Shape` interface. In the constructor of the `Shape` class we return either a `Circle()`, a `Rectangle()` or a `Triangle()`. Let's create these classes and implement the `Shape` interface on them.
+The next step is to create classes that implement the `Shape` interface. In the constructor of the `Shape` class we return either a `Circle()`, a `Rectangle()` or a `Triangle()`. Let's create these classes and implement the `Shape` interface on them.
 
 Circle:
 

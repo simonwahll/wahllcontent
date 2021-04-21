@@ -17,7 +17,7 @@ Lambdas are a concise way of building functions. These are called `arrow functio
 
 ## Syntax
 
-There are two types of lambdas, the arrow version and the block version. 
+There are two types of lambdas, the arrow version, and the block version. 
 
 The arrow version:
 
@@ -39,11 +39,11 @@ Where `args` can be any number of arguments and `expression` is any number of ex
 
 The block version of lambdas are very similar to normal functions but are used for different purposes.
 
-## Creating Our Own Lambdas
+## Creating Our Lambdas
 
 ### Arrow Lambda
 
-Lambdas are treated as first class objects in Dart. This means that we can assign them to variables and pass them as arguments to functions.
+Lambdas are treated as first-class objects in Dart. This means that we can assign them to variables and pass them as arguments to functions.
 
 Let's define a lambda that takes two [int]({{< ref "/dart/dart/data_types#integer" >}} "Dart Integer") arguments and adds them together and returns it to the caller.
 
@@ -82,11 +82,11 @@ $ dart run main.dart
 > 2
 ```
 
-With the block lambda we can have multiple expressions in the body, just like with functions. In this case we print the sum of the two numbers in the lambda instead of after. We then return sum in case we would like to use it later.
+With the block lambda, we can have multiple expressions in the body, just like with functions. In this case, we print the sum of the two numbers in the lambda instead of after. We then return the sum in case we would like to use it later.
 
 ## Lambdas as Function Arguments
 
-Lambdas can be used as arguments to functions. This can be useful for example if you would like to have some type of callback that runs at the end of a function, for example in an asynchronous function. 
+Lambdas can be used as arguments for functions. This can be useful for example if you would like to have some type of callback that runs at the end of a function, for example in an asynchronous function. 
 
 ```dart
 function f(Function callback) {
@@ -103,7 +103,7 @@ void main() {
 }
 ```
 
-Here we call out function `f` with the argument of a lambda. At the end of function `f` we then evaluate its expression.
+Here we call out function `f` with the argument of a lambda. At the end of function `f`, we then evaluate its expression.
 
 When running this program you will get the following output:
 
@@ -118,7 +118,7 @@ $ dart run main.dart
 
 ## Lambdas Used in Dart
 
-Dart uses lambdas a lot. For example the `forEach` function that can be run on a `List` takes a lambda.
+Dart uses lambdas a lot. For example, the `forEach` function that can be run on a `List` takes a lambda.
 
 `forEach` example:
 
@@ -138,4 +138,4 @@ $ dart run main.dart
 
 ## Lambdas vs Functions
 
-Lambdas and functions are almost the same. They even share the same `Function` type. They can be used for the some purposes. Keep in mind that functions are often easier to read and understand and you can use an arrow with a function as well if you only have one expression.
+Lambdas and functions are almost the same. They even share the same `Function` type. They can be used for the same purposes. Keep in mind that functions are often easier to read and understand and you can use an arrow with a function as well if you only have one expression.

@@ -13,7 +13,7 @@ weight: 7
 toc: true
 ---
 
-In order to print something to the console in Dart we use the `print()` function. It works in the same way as it does in most languages. You can find some examples down below.
+To print something to the console in Dart we use the `print()` function. It works in the same way as it does in most languages. You can find some examples down below.
 
 ## Printing a String
 

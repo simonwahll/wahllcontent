@@ -19,8 +19,8 @@ Very minimal. Runs fast and is based on musl libc and busybox.
 
 ## Arch Linux
 
-Not a light weight but not a heavy distribution either. Perfect for the person who wants to configure their own system and wants recent (possibly not as stable) packages.
+Not a lightweight but not a heavy distribution either. Perfect for the person who wants to configure their own system and wants recent (possibly not as stable) packages.
 
 ## Debian
 
-Very stable. Default installation images install a lot of unnecessary packages. I would recommend to install the minimal version and then install the packages you want yourself.
+Very stable. Default installation images install a lot of unnecessary packages. I would recommend installing the minimal version and then install the packages you want yourself.

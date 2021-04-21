@@ -26,7 +26,7 @@ There are only six data types in Dart. This is a lot less than most other langua
 
 ## Integer
 
-An integer is a number without any decimal places. Examples of integers are: 1, 843 and 25. Dart uses the keyword `int` for integers.
+An integer is a number without any decimal places. Examples of integers are 1, 843, and 25. Dart uses the keyword `int` for integers.
 
 ```dart
 // Declare an integer with the name "number"
@@ -43,7 +43,7 @@ number = 4;
 
 ## Double
 
-A double is a number with decimal places. Examples of doubles are: 4.2, 98.48221 and 31.0004.
+A double is a number with decimal places. Examples of doubles are 4.2, 98.48221, and 31.0004.
 
 ```dart
 // Declare a double with the name "number"
@@ -89,7 +89,7 @@ isOpen = false;
 
 ## List
 
-A list is the same as an array in Dart. Lists can become quite complex and we will cover them in a separate article some time in the future. For now you can find a simple example down below.
+A list is the same as an array in Dart. Lists can become quite complex and we will cover them in a separate article sometime in the future. For now, you can find a simple example down below.
 
 ```dart
 // Declare a list of integers and
@@ -99,7 +99,7 @@ List<int> myList = [1, 2, 3];
 
 ## Map
 
-A map is a collection of key-value pairs. These can be quite complex and we will cover them in a separate article some time in the future. For now you can find a simple example down below.
+A map is a collection of key-value pairs. These can be quite complex and we will cover them in a separate article sometime in the future. For now, you can find a simple example down below.
 
 ```dart
 // Declare a map and assign

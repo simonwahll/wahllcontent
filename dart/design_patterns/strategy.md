@@ -13,19 +13,19 @@ weight: 106
 toc: true
 ---
 
-The strategy design pattern consists of a class, called the strategy context, that has one or more internal states. These internal states are simple properties. An actor outside of the class can change the internal state but the strategies themselves cannot do that. This design pattern can be useful when you want to construct an object out of other object such as a character in a video game.
+The strategy design pattern consists of a class, called the strategy context, that has one or more internal states. These internal states are simple properties. An actor outside of the class can change the internal state but the strategies themselves cannot do that. This design pattern can be useful when you want to construct an object out of other objects such as a character in a video game.
 
 It consists of three parts:
 
 1. An interface the different strategies can implement.
-2. A number of different strategies that is the internal state of the strategy.
+2. Different strategies that are the internal state of the strategy.
 3. A strategy context class that keeps track of the current state and provides a common interface.
 
 Let's start from the beginning.
 
 ## Strategy Interfaces
 
-This is quite straight forward. We will be creating two strategy component interfaces.
+This is quite straightforward. We will be creating two strategy component interfaces.
 
 ```dart
 abstract class CPU {
@@ -39,7 +39,7 @@ abstract class GPU {
 }
 ```
 
-## A Number of Different Strategies
+## Some Different Strategies
 
 Each strategy should implement its corresponding interface. We will create two strategies for the CPU and two for the GPU.
 
@@ -81,7 +81,7 @@ class SlowGPU implements GPU {
 
 ## The Strategy Context Class
 
-This is the class the clients will interact with. It contains its internal state and provides a common interface for the clients. The clients can change its internal state directly.
+This is the class the clients will interact with. It contains its internal state and provides a common interface for the clients. The clients can change their internal state directly.
 
 ```dart
 class Computer {
@@ -147,8 +147,8 @@ Below we will outline the main differences:
 ### State
 - The states can be aware of each other.
 - The states can change the current state in the state context.
-- An actor outside if the state context or the states should not be able to directly change the current state.
-- A change in state should be a side effect of some action in the state context. This can be in either the state context or in on of the states.
+- An actor outside of the state context or the states should not be able to directly change the current state.
+- A change in the state should be a side effect of some action in the state context. This can be in either the state context or in one of the states.
 
 ### Strategy
 - The strategies should not be aware of each other.

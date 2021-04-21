@@ -13,7 +13,7 @@ weight: 101
 toc: true
 ---
 
-The `builder` design pattern is a creational design pattern. It is used to create complex object without requiring the client to know the construction code.
+The `builder` design pattern is creational. It is used to create complex objects without requiring the client to know the construction code.
 
 One common use case for the builder design pattern is to replace a large constructor with lots of logic the clients need to know about. When doing this you can avoid the following types of constructors:
 
@@ -25,12 +25,12 @@ The builder design pattern consists of the following components:
 
 1. Products, the products the builders can create.
 2. A builder interface.
-3. Concrete builders that implements the builder interface.
-4. A director that can use a builder to create objects.
+3. Concrete builders that implement the builder interface.
+4. A director who can use a builder to create objects.
 
 ## Products
 
-We will create two products, a house and a shed. The builders we will create in a later step can produce these products.
+We will create two products, a house, and a shed. The builders we will create in a later step can produce these products.
 
 ```dart
 class House {
@@ -197,6 +197,6 @@ $ dart run main.dart
 > Shed roof, height: 1
 ```
 
-Note that if you need more control over the builder than the director provides you can build you own object directly with a builder.
+Note that if you need more control over the builder than the director provides you can build your own object directly with a builder.
 
 Congratulation, you just used the builder design pattern.

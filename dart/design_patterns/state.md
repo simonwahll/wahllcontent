@@ -18,14 +18,14 @@ The state design pattern can change its internal state without changing its oute
 It consists of three parts:
 
 1. An interface the different states can implement.
-2. A number of different states that can be used by the state context class.
+2. Several different states that can be used by the state context class.
 3. A state context class that keeps track of the current state and provides a common interface.
 
 Let's start from the beginning.
 
 ## State Interface
 
-This is quite straight forward.
+This is quite straightforward.
 
 ```dart
 abstract class State {
@@ -33,7 +33,7 @@ abstract class State {
 }
 ```
 
-## A Number of Different States
+## Some Different States
 
 Each state should implement the `State()` interface. We will create two states for now.
 
@@ -109,7 +109,7 @@ Below we will outline the main differences:
 - The states can be aware of each other.
 - The states can change the current state in the state context.
 - An actor outside of the state context or the states should not be able to directly change the current state.
-- A change in state should be a side effect of some action in the state context. This can be in either the state context or in one of the states.
+- A change in the state should be a side effect of some action in the state context. This can be in either the state context or in one of the states.
 
 ### Strategy
 - The strategies should not be aware of each other.

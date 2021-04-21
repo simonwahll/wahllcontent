@@ -13,8 +13,8 @@ weight: 1
 toc: true
 ---
 
-In this tutorial you will be learning Python programming. It can be fun and interesting and you will most definitely learn a new skill.
+In this tutorial, you will be learning Python programming. It can be fun and interesting and you will most definitely learn a new skill.
 
 ## What is Python?
 
-Python is a high level programming language, that means the language is quite abstract and you don't need to know a lot about how computers work in order to use it. Everything from automating a simple task, like making a backup of some files, to machine learning can be done in Python.
+Python is a high-level programming language, which means the language is quite abstract and you don't need to know a lot about how computers work to use it. Everything from automating a simple task, like making a backup of some files, to machine learning can be done in Python.

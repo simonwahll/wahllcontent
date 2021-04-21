@@ -13,7 +13,7 @@ weight: 4
 toc: true
 ---
 
-Finals are similar to [constants]({{< ref "/dart/dart/constants" >}} "Dart Constants") in the way that it is not possible to change their values after they have been assigned a value and they must be assigned a value at the same time as they are declared. The difference is that finals can be the result of an expression that cannot be known at compile time so they can be used to hold an instance of an object.
+Finals are similar to [constants]({{< ref "/dart/dart/constants" >}} "Dart Constants") in the way that it is not possible to change their values after they have been assigned a value and they must be assigned a value at the same time as they are declared. The difference is that final can be the result of an expression that cannot be known at compile time so it can be used to hold an instance of an object.
 
 ## Syntax
 
@@ -39,10 +39,10 @@ The value of a final can never be changed. If you need to do this you should use
 final text = "Hello World!";
 
 // This will not work!
-// It will throw a compile time error.
+// It will throw a compile-time error.
 //text = "Hello Universe!";
 ```
 
 ## Final With Objects
 
-When assigning an instance of an object to a final the object will work exactly as expected. The only difference from doing this from assigning it to a [variable]({{< ref "/dart/dart/variables" >}} "Dart Variables") is that a the instance of the object of a final can never be changed while this can be done with variables.
+When assigning an instance of an object to a final the object will work exactly as expected. The only difference from doing this from assigning it to a [variable]({{< ref "/dart/dart/variables" >}} "Dart Variables") is that the instance of the object of a final can never be changed while this can be done with variables.

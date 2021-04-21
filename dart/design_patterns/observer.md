@@ -14,13 +14,13 @@ toc: true
 ---
 
 The observer pattern is used in cases where you have an object that some other object would like to listen to changes on. It can be implemented in Dart with two abstract classes. These can be customized to suit your needs but they are generally a good starting point. 
-There are two parts to the observer pattern, the subject and the observer. The subject is the object that the observer want to observe.
+There are two parts to the observer pattern, the subject, and the observer. The subject is the object that the observer wants to observe.
 
-Note that the observer is sometimes referred to as a subscriber. Calling the observer a subscriber is more clear and might be a better choice. For the sake of this guide we will keep calling it the observer.
+Note that the observer is sometimes referred to as a subscriber. Calling the observer a subscriber is more clear and might be a better choice. For the sake of this guide, we will keep calling it the observer.
 
 ## Subject
 
-The subject is the object the observers want to observe. This can for example be a shared state that multiple objects needs to observe.
+The subject is the object the observers want to observe. This can for example be a shared state that multiple objects need to observe.
 
 Below you can find a simple implementation of an abstract subject class that can be extended by the class which should be a subject. You might want to customize this for your use case.
 

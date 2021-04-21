@@ -13,13 +13,13 @@ weight: 100
 toc: true
 ---
 
-The abstract factory design patterns allows you to create collections of related objects without knowing their types.
+The abstract factory design patterns allow you to create collections of related objects without knowing their types.
 
-This design patterns consists of the following parts:
+This design pattern consists of the following parts:
 1. One interface for each type of object the factories can produce.
-2. Concrete classes that implements the corresponding interface.
+2. Concrete classes that implement the corresponding interface.
 3. An abstract factory interface that all factories should implement.
-4. Concrete factories that implements the corresponding interface.
+4. Concrete factories that implement the corresponding interface.
 
 ## The Interfaces
 

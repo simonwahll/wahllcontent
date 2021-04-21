@@ -23,7 +23,7 @@ Let's take a look at each one of them.
 
 ## Single Line Comments
 
-Single line comments start with two slashes (`//`) and is only valid to the end of the line. 
+Single line comments start with two slashes (`//`) and are only valid to the end of the line. 
 
 Example:
 ```dart
@@ -35,7 +35,7 @@ int number = 5;
 
 ## Multiple Lines Comments
 
-These are the same types of comment you can find in C. They start with a slash followed by an asterisk (`/*`) and end with an asterisk followed by a slash (`*/`). This type of comment can span multiple lines because everything between the `/*` and the `*/` is part of the comment.
+These are the same types of comments you can find in C. They start with a slash followed by an asterisk (`/*`) and end with an asterisk followed by a slash (`*/`). This type of comment can span multiple lines because everything between the `/*` and the `*/` is part of the comment.
 
 Example:
 
@@ -55,7 +55,7 @@ int number = 5;
 
 ## Documentation Comments
 
-Documentation comments are used by Darts documentation tool. These are quite powerful and will be explored more in depth in an article about documentation. 
+Documentation comments are used by Dart's documentation tool. These are quite powerful and will be explored more in-depth in a documentation article. 
 
 These comments start with three slashes (`///`) and are valid until the end of the line. 
 
