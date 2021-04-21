@@ -161,7 +161,7 @@ class Director {
 
 ## Testing Our Builder
 
-We can test our bilder with a simple main function.
+We can test our builder with a simple main function.
 
 ```dart
 void main() {

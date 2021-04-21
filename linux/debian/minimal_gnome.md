@@ -19,7 +19,7 @@ When installing the GNOME version of Debian you will get piles of packages insta
 
 ## How To
 
-1. Download the netinstall iso from the Debian [website](https://www.debian.org/) and install it without any desktop enviroment. 
+1. Download the netinstall iso from the Debian [website](https://www.debian.org/) and install it without any desktop environment. 
 
 Note: If you don't need to connect to the internet with WiFi you can skip to step 7.
 
@@ -30,7 +30,7 @@ iface wlan0 inet dhcp
   wpa-ssid <MySsid>
   wpa-psk <MyPassword>
 ```
-Where `<interface>` is the interface of your WiFi card. (You can find this by running the command `ip a`, an example would be `wlp2s0`), `<MySsid>` is the SSID of your WiFi (commonly refered to as the name) and `<MyPassword>` is the password to your WiFi.
+Where `<interface>` is the interface of your WiFi card. (You can find this by running the command `ip a`, an example would be `wlp2s0`), `<MySsid>` is the SSID of your WiFi (commonly referred to as the name) and `<MyPassword>` is the password to your WiFi.
 
 4. Now connect to your WiFi by running the command:
 ```sh
@@ -47,6 +47,6 @@ apt install gnome-core
 
 7. Reboot and you will be able to log in to GNOME.
 
-## Networking Icon Is a Questionmark
+## Networking Icon Is a Question mark
 
 In the top right corner you wight have a weird network icon that says `Wired Unmanaged`. You can fix this by edition `/etc/NetworkManager/NetworkManager.conf` and change `managed=false` to `managed=true`.

@@ -145,13 +145,13 @@ Congratulations, you just used the strategy design pattern.
 Below we will outline the main differences:
 
 ### State
-- The states can be aware of eachoter.
+- The states can be aware of each other.
 - The states can change the current state in the state context.
 - An actor outside if the state context or the states should not be able to directly change the current state.
 - A change in state should be a side effect of some action in the state context. This can be in either the state context or in on of the states.
 
 ### Strategy
-- The strategies should not be aware of eachother.
+- The strategies should not be aware of each other.
 - A strategy should not be able to change any current strategy in the strategy context.
 - An actor outside of the strategy context should be able to change the current strategies.
 - A change in the strategy contexts strategies should not be a side effect of some action in the strategy context.

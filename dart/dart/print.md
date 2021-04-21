@@ -82,7 +82,7 @@ Output:
 
 ## Printing multiple objects
 
-The `print()` function takes exaclty one argument. If you want to print more than one object you will have to call the `print()` function more than once or concatenate the objects in some way. 
+The `print()` function takes exactly one argument. If you want to print more than one object you will have to call the `print()` function more than once or concatenate the objects in some way. 
 
 Concatenation example:
 

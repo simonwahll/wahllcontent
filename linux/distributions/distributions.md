@@ -23,4 +23,4 @@ Not a light weight but not a heavy distribution either. Perfect for the person w
 
 ## Debian
 
-Very stable. Default installation images install a lot of uneccassary packages. I would recommend to install the minimal version and then install the packages you want yourself.
+Very stable. Default installation images install a lot of unnecessary packages. I would recommend to install the minimal version and then install the packages you want yourself.

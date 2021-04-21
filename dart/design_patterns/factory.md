@@ -34,7 +34,7 @@ abstract class Shape {
       case 'TRIANGLE':
         return Triangle();
       default:
-        return nul;
+        return null;
     }
   }
 

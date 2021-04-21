@@ -31,7 +31,7 @@ Declaring a list:
 type name = [elements];
 ```
 
-Where `type` can be any [data type]({{< ref "/dart/dart/data_types" >}} "Dart Data Types"), `name` can be any name following the same naming rules as [variables]({{< ref "/dart/dart/variables" >}} "Dart Variables") and `elements` can be any objects that should be collected in the list, these are sparated by commas.
+Where `type` can be any [data type]({{< ref "/dart/dart/data_types" >}} "Dart Data Types"), `name` can be any name following the same naming rules as [variables]({{< ref "/dart/dart/variables" >}} "Dart Variables") and `elements` can be any objects that should be collected in the list, these are separated by commas.
 
 Getting a element from a list:
 
@@ -39,9 +39,9 @@ Getting a element from a list:
 name[index];
 ```
 
-Where `name` is the name of the list and `index` is the index of the element that you want to get. Keep in mind that if you try to get an index that is larger than the lists is Dart will either throw a compile time error or crash during runtime.
+Where `name` is the name of the list and `index` is the index of the element that you want to get. Keep in mind that if you try to get an index that is larger than the lists is Dart will either throw a compile time error or crash during run time.
 
-Changin the value of an element in a list:
+Changing the value of an element in a list:
 
 ```dart
 name[index] = new_value;
@@ -119,7 +119,7 @@ Fixed length lists are similar to growable lists except that their length cannot
 
 ### List.filled()
 
-`List.filled(int length, int fill, {bool growable = false})` takes two arguments and and one named argument and returns a list. The first argument is the length of the list, the second argument is what each elements value should be and the named argument is a [boolean]({{< ref "/dart/dart/data_types#Boolean" >}} "Dart Booleans") with the name `growable` which indicates if the list should be growable or not. 
+`List.filled(int length, int fill, {bool growable = false})` takes two arguments and and one named argument and returns a list. The first argument is the length of the list, the second argument is what each elements value should be and the named argument is a [Boolean]({{< ref "/dart/dart/data_types#Boolean" >}} "Dart Boolean") with the name `growable` which indicates if the list should be growable or not. 
 
 ```dart
 var myList = List.filled(3, 0, growable: false);

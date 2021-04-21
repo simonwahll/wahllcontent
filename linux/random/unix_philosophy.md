@@ -22,7 +22,7 @@ In 1978 Dough Mcllroy documented the Unix Philosophy in the Bell System Technica
 The Unix philosophy consists 4 main points. These are:
 1. Programs should do one thing and one thing only really well. No "features" should exist and if you need more functionality you should create a new program for that task.
 2. The output of one program should be considered the input of another program. This means output should not be cluttered and use a format like simple text. If possible, don't use binary formats and avoid interactive input.
-3. Test new software quickly in the development process. Throw avaid bad parts of the software early and rebuild it if it isn't working right.
+3. Test new software quickly in the development process. Throw away bad parts of the software early and rebuild it if it isn't working right.
 4. Use tools to help you. If you need to build these tools yourself, do so, even if you have no use for them after you have finished using them.
 
 Ritchie and Thompson summarized these points into the following in 1974:
@@ -33,7 +33,7 @@ Ritchie and Thompson summarized these points into the following in 1974:
 
 ## Do One Thing and Do It Well
 
-Arguably the most importand part of the Unix philosophy is DOTADIW, Do One Thing And Do It Well. This simplifies development of software and makes them extensible. One piece of software that is limited in size is easier for the user to understand and at the same time a lot easier for the software developer to write and maintain. 
+Arguably the most important part of the Unix philosophy is DOTADIW, Do One Thing And Do It Well. This simplifies development of software and makes them extensible. One piece of software that is limited in size is easier for the user to understand and at the same time a lot easier for the software developer to write and maintain. 
 
 ## Simplicity Over Perfection
 

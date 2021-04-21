@@ -70,7 +70,7 @@ pi = 3.14;
 
 ## Using the Value of a Variable
 
-The value of a variable can be retrived by just typing the name of the variable.
+The value of a variable can be retrieved by just typing the name of the variable.
 
 For example, if we would like to declare a `String` called `text` with the value `"Hello"` and then print it to the terminal we can do so with the following code:
 

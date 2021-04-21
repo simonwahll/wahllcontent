@@ -70,16 +70,16 @@ String text = "Hello";
 // Assign a new value to the variable "text".
 text = "monkey";
 
-// Strings can also include whitespaces.
+// Strings can also include white spaces.
 text = "Hello World!";
 ```
 
 ## Boolean
 
-A boolean is either true or false. Dart uses the keyword `bool` for boolean.
+A Boolean is either true or false. Dart uses the keyword `bool` for Boolean.
 
 ```dart
-// Declare a boolean with the name "isOpen"
+// Declare a Boolean with the name "isOpen"
 // and assign it the value true.
 bool isOpen = true;
 

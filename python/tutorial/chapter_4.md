@@ -13,13 +13,13 @@ weight: 4
 toc: true
 ---
 
-When programming you will come across senarios where you would want to save one value for later use. Thing of this like taking a real life object, such as a coffee cup, and puting it away in a cabinett. Next time you want to use this cup you simply open the cabinett where you will find your cup. In the same way in programming we can take a value, like the number 4, and put it in a box we give a name. Later when we have forgotten what that value is we can open the box we created and retrieve the value again.
+When programming you will come across scenarios where you would want to save one value for later use. Thing of this like taking a real life object, such as a coffee cup, and putting it away in a cabinet. Next time you want to use this cup you simply open the cabinet where you will find your cup. In the same way in programming we can take a value, like the number 4, and put it in a box we give a name. Later when we have forgotten what that value is we can open the box we created and retrieve the value again.
 
 Lets look at an example:
 ```py
 x = 4
 ```
-Here we take the value 4 and assigns it to the varaible x. This is like taking an object and putting it in a box and giving the box a name. In this case the object to put away is 4 and the name of the box we put it in is `x`. 
+Here we take the value 4 and assigns it to the variable x. This is like taking an object and putting it in a box and giving the box a name. In this case the object to put away is 4 and the name of the box we put it in is `x`. 
 
 But how can we retrieve the value from this box? Since we know how to print something in the terminal we can print the value of this variable in the terminal:
 ```py

@@ -13,7 +13,7 @@ weight: 2
 toc: true
 ---
 
-Constants are quite similar to a variable. The only difference is that a variables value can be changed during runtime, constants cannot, therefore they are constants. Dart uses the `const` keyword to declare a constant. All constants must be initialized with a value at the same time as they are declared, otherwise the Dart compiler will throw an error. You can think of constants as an alias for a value that you, the programmer, define while writing the program and when the Dart compiler does its things it replaces all constants you use with the value you assigned to it.
+Constants are quite similar to a variable. The only difference is that a variables value can be changed during run time, constants cannot, therefore they are constants. Dart uses the `const` keyword to declare a constant. All constants must be initialized with a value at the same time as they are declared, otherwise the Dart compiler will throw an error. You can think of constants as an alias for a value that you, the programmer, define while writing the program and when the Dart compiler does its things it replaces all constants you use with the value you assigned to it.
 
 ## Syntax
 
@@ -62,7 +62,7 @@ print(text);
 print(text);
 ```
 
-is exaclty the same as doing this:
+is exactly the same as doing this:
 
 ```dart
 print("Hello World!");

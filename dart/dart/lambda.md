@@ -75,14 +75,14 @@ var add = (int a, int b) {
 a(1, 1);
 ```
 
-When running this program you will get the follwing output:
+When running this program you will get the following output:
 
 ```
 $ dart run main.dart
 > 2
 ```
 
-With the block lambda we can have multple expressions in the body, just like with functions. In this case we print the sum of the two numbers in the lambda instead of after. We then return sum in case we would like to use it later.
+With the block lambda we can have multiple expressions in the body, just like with functions. In this case we print the sum of the two numbers in the lambda instead of after. We then return sum in case we would like to use it later.
 
 ## Lambdas as Function Arguments
 
