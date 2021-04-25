@@ -23,7 +23,7 @@ for (<variable>; <condition>; <step>) {
 }
 ```
 
-Where `<variable>` is most often an [integer]({{< ref "/dart/dart/data_types#integer" >}} "Dart Integers") with the name `i`, `<condition>` is a logical condition that determines of the code in the boy should run or not and `<step>` is used to change the value of the variable.
+Where `<variable>` is most often an [integer]({{< ref "/dart/dart/data_types#integer" >}} "Dart Integers") with the name `i`, `<condition>` is a logical condition that determines of the code in the body should run or not and `<step>` is used to change the value of the variable.
 
 The first thing that happens when Dart comes across a `for` loop is to declare and initialize the `<variable>`. After that, Dart checks if the `<condition>` is `true` or `false`. If it is `true` the body of the `for` loop is run. Then Dart executes the `<step>`, which most of the time modifies the `<variable>`. Then the `<condition>` is run again and the process is repeated, except for the `<variable>` step, until the `<condition>` is `false` and the execution of the loop completes.
 
