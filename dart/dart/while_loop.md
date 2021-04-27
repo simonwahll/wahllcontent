@@ -9,7 +9,7 @@ images: []
 menu: 
   dart:
     parent: "Dart"
-weight: 12
+weight: 13
 toc: true
 ---
 
@@ -61,7 +61,7 @@ $ dart run main.dart
 
 Let's step through the code to understand it.
 
-1. The first thing that Dart does is creating and [integer]({{< ref "/dart/dart/data_types#integer" >}} "Dart Integers") with the name `i` and assigning it the value `0`.
+1. The first thing that Dart does is creating an [integer]({{< ref "/dart/dart/data_types#integer" >}} "Dart Integers") with the name `i` and assigning it the value `0`.
 
 2. Dart then evaluates the condition `i <= 10` and the condition evaluates to `true` since `0` is less than 10.
 
