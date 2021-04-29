@@ -45,4 +45,4 @@ final text = "Hello World!";
 
 ## Final With Objects
 
-When assigning an instance of an object to a final the object will work exactly as expected. The only difference from doing this from assigning it to a [variable]({{< ref "/dart/dart/variables" >}} "Dart Variables") is that the instance of the object of a final can never be changed while this can be done with variables.
+When assigning an instance of an object to a `final` the object will work exactly as expected. The only difference from doing this from assigning it to a [variable]({{< ref "/dart/dart/variables" >}} "Dart Variables") is that the instance of the object of a final can never be changed while this can be done with variables.

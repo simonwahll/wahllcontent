@@ -13,7 +13,7 @@ weight: 4
 toc: true
 ---
 
-The `do while` loop is similar to a [while]({{< ref "/dart/dart/while_loop" >}} "Dart While Loop") except that the loop will run at least once.
+The `do while` loop is similar to a [while]({{< ref "/dart/dart/while_loop" >}} "Dart While Loop") loop except that the loop will run at least once.
 
 ## Syntax
 
@@ -25,7 +25,7 @@ do {
 
 Where `<condition>` is a logical condition that determines if the code in the body should run or not.
 
-When Dart comes across a `do while` loop it starts by running the code in the body and then evaluates the condition inside the parenthesis after the `while` word. If the condition evaluates to `true` the loop will run again but if the condition evaluates to `false` the `do while` loop is terminated and Dart will continue executing the code after the loop.
+When Dart comes across a `do while` loop it starts by running the code in the body and then evaluates the condition inside the parenthesis after the `while` word. If the condition evaluates to `true` the body will run again but if the condition evaluates to `false` the `do while` loop is terminated and Dart will continue executing the code after the loop.
 
 ## Examples
 

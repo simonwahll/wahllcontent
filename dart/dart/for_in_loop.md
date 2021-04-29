@@ -50,7 +50,7 @@ $ dart run main.dart
 
 Let's step through the code to understand it.
 
-1. We declare a variable with the name `myList` and initializes it with the list `[1, 2, 3, 4, 5]`.
+1. We declare a variable with the name `myList` and initialize it with the list `[1, 2, 3, 4, 5]`.
 
 2. Dart comes across the `for in` loop and iterates through each element in the list and giving the value of the current element to the variable `element`.
 

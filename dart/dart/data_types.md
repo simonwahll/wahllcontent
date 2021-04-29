@@ -13,7 +13,7 @@ weight: 3
 toc: true
 ---
 
-Dart is a statically typed language. This means the type of one variable cannot be changed and variables of different types cannot be used together unless they are explicitly designed to do that. For example, it is not possible to declare a variable as type a and assign it a value of type b.
+Dart is a statically typed language. This means the type of a [variable]({{< ref "/dart/dart/variables" >}} "Dart Variables") cannot be changed and variables of different types cannot be used together unless they are explicitly designed to do that. For example, it is not possible to declare a variable as type [String]({{< ref "/dart/dart/data_types#string" >}} "Dart Strings") and assign it a value of type [int]({{< ref "/dart/dart/data_types#integer" >}} "Dart Integers").
 
 There are only six data types in Dart. This is a lot less than most other languages. These are the following:
 
@@ -89,7 +89,7 @@ isOpen = false;
 
 ## List
 
-A list is the same as an array in Dart. Lists can become quite complex and we will cover them in a separate article sometime in the future. For now, you can find a simple example down below.
+A list is the same as an array in Dart. Lists can become quite complex and are covered in [this]({{< ref "/dart/dart/lists" >}} "Dart Lists") article. You can find a simple example down below.
 
 ```dart
 // Declare a list of integers and
