@@ -57,7 +57,7 @@ import 'dart:io';
 
 void main() {
   print('Enter your age: ');
-  var age = int.parse(stdin.readLineSync()));
+  var age = int.parse(stdin.readLineSync());
 
   if (age > 20) {
     print('You are older than 20');
@@ -87,7 +87,79 @@ Note that you must press `Enter` after entering your age and you must enter an a
 
 ## Else
 
-*Comming soon...*
+What if we would like to run some code only if an `if` condition did not run? We could do this with multiple `if` statements if we wanted to. Look at the following example.
+
+```dart
+import 'dart:io';
+
+void main() {
+  print('Enter your age: ');
+  var age = int.parse(stdin.readLineSync());
+
+  if (age > 20) {
+    print('You are older than 20');
+  }
+
+  if (age <= 20) {
+    print('You are not older than 20');
+  }
+}
+```
+
+If we would run this program and enter the age of 18 we would get the result that we expect.
+
+Output:
+
+```
+$ dart run main.dart
+> Enter your age: 18
+> You are not older than 20
+```
+
+However, having two `if` statements is not necessary since the second condition (`age <= 20`) is always `true` if the first condition (`age > 20`) is `false`. It is quite common in programming to do similar things to this, so common that there is a special statement for this, the `else` statement.
+
+### Syntax
+
+```dart
+if (<condition>) {
+  <if_code>
+}
+else {
+  <else_code>
+}
+```
+
+Where the `if` part is exactly the same as we learned above and `<else_code>` is any amount of code that will run only if the `<condition>` evaluates to `false`.
+
+### Example
+
+Let's rewrite the code we just wrote to use the `else` statement instead of two `if` statements.
+
+```dart
+import 'dart:io';
+
+int main() {
+  print('Enter your age: ');
+  var age = int.parse(stdin.readLineSync());
+
+  if (age > 20) {
+    print('You are older than 20');
+  }
+  else {
+    print('You are not older than 20');
+  }
+}
+```
+
+If we run this program we get exactly the same result as the previous version.
+
+Output:
+
+```
+$ dart run main.dart
+> Enter your age: 18
+> You are not older than 20
+```
 
 ## Else If
 
