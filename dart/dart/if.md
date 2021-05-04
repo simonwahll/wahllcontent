@@ -163,4 +163,73 @@ $ dart run main.dart
 
 ## Else If
 
-*Comming soon...*
+Any number of `if` statements can be chained together. This can be useful in some situations but in some other situations, you want to have multiple `if` statements but only run the first one that the condition evaluated to `true` on. This can be done with the `else if` statement.
+
+### Syntax
+
+```dart
+if (<if_condition>) {
+  <if_code>
+}
+else if (<else_if_condition>) {
+  <else_if_code>
+}
+```
+
+Where `if` part is exactly the same as we have learned before and the `<else_if_condition>` is a logical condition that can evaluate to ether `true` or `false`. The `<else_if_code>` is any amount of code that will run only if the first `if` condition's condition evaluates for `false` and the `<else_if_condition>` evaluates to `true`.
+
+### Example
+
+Let's continue building on the code we made in the [else]({{< ref "/dart/dart/if#else" >}} "Dart else") part of this article. We might want to print `You are older than 50` if the user entered an age older than 50 and `You are older than 30` if the user entered an age older than 30 but younger than 50.
+
+```dart
+import 'dart:io';
+
+void main() {
+  print('Enter your age: ');
+  var age = int.parse(stdin.readLineSync());
+
+  if (age > 50) {
+    print('You are older than 50');
+  }
+  else if (age > 30) {
+    print('You are older than 30');
+  }
+  else if (age > 20) {
+    print('You are older than 20');
+  }
+  else {
+    print('You are not older than 20');
+  }
+}
+```
+
+Here, Dart will start by evaluating the condition in the `if` statement. If the condition is `true` it will run the body of that `if` statement and skip the `if else` and `else` statements. If the `if` statement's condition evaluates to `false` Dart will evaluate the condition of the first `else if` statement and if the condition evaluates to `true` it will run the code in that body and then skip the next `else if` and `else` statements. This will continue until there are no more `else if` statements and if the last one also evaluates to `false` the `else` statement's body will run.
+
+Output:
+
+```
+$ dart run main.dart
+> Enter your age: 55
+> You are older than 50
+```
+
+```
+$ dart run main.dart
+> Enter your age: 33
+> You are older than 30
+```
+
+```
+$ dart run main.dart
+> Enter your age: 22
+> You are older than 20
+```
+
+```
+$ dart run main.dart
+> Enter your age: 18
+> You are not older than 20
+```
+
+Note that you can chain together any number of `else if` statements and you are not required to use the `else` statement.
