@@ -119,7 +119,7 @@ The next thing we do is creating the `IsolatePackage` class. This class is used 
 class IsolatePackage {
   final SendPort sendPort;
   final ReceivePort receivePort;
-  final Isolte isolate;
+  final Isolate isolate;
 
   IsolatePackage(this.sendPort, this.receivePort, this.isolate);
 }
