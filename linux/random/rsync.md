@@ -52,3 +52,7 @@ Copy remote folder `pi@MyPi:/home/pi/folder` into `/home/user/folder`.
 ```
 rsync pi@MyPi:/home/pi/folder /home/user
 ```
+
+## Go Further
+
+Read the manual for rsync by running `man rsync`.
