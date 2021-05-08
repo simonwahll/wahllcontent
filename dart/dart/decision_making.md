@@ -1,6 +1,6 @@
 ---
-title: "If"
-description: "If"
+title: "Decision Making"
+description: "Decision Making"
 lead: ""
 date: 2021-05-03T16:16:50+02:00
 lastmod: 2021-05-03T16:16:50+02:00
@@ -9,7 +9,7 @@ images: []
 menu: 
   dart:
     parent: "Dart"
-weight: 9
+weight: 7
 toc: true
 ---
 
@@ -180,7 +180,7 @@ Where `if` part is exactly the same as we have learned before and the `<else_if_
 
 ### Example
 
-Let's continue building on the code we made in the [else]({{< ref "/dart/dart/if#else" >}} "Dart else") part of this article. We might want to print `You are older than 50` if the user entered an age older than 50 and `You are older than 30` if the user entered an age older than 30 but younger than 50.
+Let's continue building on the code we made in the [else]({{< ref "/dart/dart/decision_making#else" >}} "Dart else") part of this article. We might want to print `You are older than 50` if the user entered an age older than 50 and `You are older than 30` if the user entered an age older than 30 but younger than 50.
 
 ```dart
 import 'dart:io';
