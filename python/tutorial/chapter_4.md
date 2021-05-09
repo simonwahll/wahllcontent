@@ -1,6 +1,6 @@
 ---
 title: "Chapter 4 - Variables"
-description: "Chapter 4 - Variable"
+description: "Chapter 4 - Variables"
 lead: ""
 date: 2021-03-17T22:26:41+01:00
 lastmod: 2021-03-17T22:26:41+01:00
