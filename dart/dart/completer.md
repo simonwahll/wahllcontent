@@ -13,11 +13,11 @@ weight: 17
 toc: true
 ---
 
-Dart is an asyncronous language, that means it can queue things to do when noting else is being done. Normally when doing this you would declare an async function to return a future, which will complete when the task has been completed. However there are cases where you cannot use a future but might still want to, this is where completers come in place. It is a way of emulating futures.
+Dart is an asynchronous language, which means it can queue things to do when nothing else is being done. Normally when doing this you would declare an async function to return a future, which will complete when the task has been completed. However there are cases where you cannot use a future but might still want to, this is where completers come in place. It is a way of emulating futures.
 
 ## Basics
 
-In order to use completers you first need to import the `dart:async` library.
+To use completers you first need to import the `dart:async` library.
 
 ```dart
 import 'dart:async';
@@ -73,4 +73,4 @@ void main() async {
 }
 ```
 
-Here we create a function `waitFiveSeconds()` that declares a completer, sets a timer that completes the completer after five seconds and returns the future of the completer. We then await the result and [prints]({{< ref "/dart/dart/print" >}} "Dart Print") it to the terminal. When running this, our program will wait for five seconds and then print `true` to the terminal.
+Here we create a function `waitFiveSeconds()` that declares a completer, sets a timer that completes the completer after five seconds, and returns the future of the completer. We then await the result and [prints]({{< ref "/dart/dart/print" >}} "Dart Print") it to the terminal. When running this, our program will wait for five seconds and then print `true` to the terminal.
