@@ -9,7 +9,7 @@ images: []
 menu: 
   dart:
     parent: "Dart"
-weight: 17
+weight: 18
 toc: true
 ---
 
@@ -144,7 +144,7 @@ Future<IsolatePackage> startIsolate(Function(SendPort) initFunction) async {
 }
 ```
 
-This function takes a function as an argument. This is the function the isolate will run. Next, we create a completer which we will cover more in a later article. Basically, it emulates a future. A `ReceivePort` is created that can be used to send messages to this isolate, i.e. the main isolate. Next, we listen to messages on the `receivePort`, and if the message is a `SendPort` we complete the completer with this `SendPort`. Remember, the isolate will send it's `sendPort` to the isolate that starts it. `var isolate = await Isolate.spawn<SendPort>(initFunction, receivePort.sendPort);` creates an isolate and passes this isolate's `sendPort` as the argument to it. The return statement creates the `IsolatePackage` object and returns it to the caller.
+This function takes a function as an argument. This is the function the isolate will run. Next, we create a completer which you can read about [here]({{< ref "/dart/dart/completer" >}} "Dart Completer"). A `ReceivePort` is created that can be used to send messages to this isolate, i.e. the main isolate. Next, we listen to messages on the `receivePort`, and if the message is a `SendPort` we complete the completer with this `SendPort`. Remember, the isolate will send it's `sendPort` to the isolate that starts it. `var isolate = await Isolate.spawn<SendPort>(initFunction, receivePort.sendPort);` creates an isolate and passes this isolate's `sendPort` as the argument to it. The return statement creates the `IsolatePackage` object and returns it to the caller.
 
 The main function looks like this:
 
